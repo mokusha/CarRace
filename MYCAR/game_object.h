@@ -15,8 +15,8 @@ public:
 	int getHeight() const;
 	int getSymbol(int y, int x) const;
 
-	//void setX(int x);
-	//void setY(int y);
+	void setX(int x);
+	void setY(int y);
 
 private:
 	int x, y;

@@ -45,9 +45,10 @@ int GameObject::getSymbol(int y, int x) const {
 	return this->arrObject[y][x];
 };
 
-
-//void GameObject::setX(int x) {
-//	this->x =        ;
-//}
-//void GameObject::setY(int y) {}
+void GameObject::setX(int x) {
+	this->x =x;
+};
+void GameObject::setY(int y) {
+	this->y = y;
+};
 

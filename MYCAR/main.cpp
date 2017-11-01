@@ -1,6 +1,4 @@
 #include <iostream>
-#include <conio.h>
-#include <time.h>
 
 #include "game.h"
 #include "game_object.h"
@@ -11,12 +9,14 @@
 using namespace std;
 
 int main(int argc, char** argv) {
-	Screen test(15,15);
-	Car testCar(10,10);
+	Game test;
+	test.GameBegin();
+	/*Screen test(20,20);
+	Car testCar(0,0);
 	test.InscribeObject(testCar);
-	Block testBlock(18,18);
+	Block testBlock(3,3);
 	test.InscribeObject(testBlock);
-	test.Draw();
-	system("pause");
+	test.Draw();*/
+	//system("pause");
 	return 0;
 }
